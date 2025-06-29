@@ -1,7 +1,14 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2025 Eric Liu
+
 package main
 
-import "fmt"
+import (
+	"github.com/ericliutech/farm-shop/backend/pkg/logger"
+)
 
 func main() {
-    fmt.Println("Farm Shop backend is running.")
+	logger.Init()
+
+	logger.Info("Farm Shop backend ran ok.")
 }
