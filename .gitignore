@@ -1,0 +1,18 @@
+# Go
+/backend/bin/
+/backend/pkg/
+/backend/*.exe
+/backend/*.out
+/backend/*.test
+
+# node_modules or HBuilderX builds
+/frontend/node_modules/
+/frontend/dist/
+/frontend/unpackage/
+
+# OS & editor files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
